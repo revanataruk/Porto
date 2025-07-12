@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revan Diwangkara - Portofolio Pribadi</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-900 text-slate-300 antialiased">
+
+    <!-- Container Utama -->
+    <div class="container mx-auto max-w-4xl px-6 py-12 md:py-20">
+
+        <!-- ===== BAGIAN HEADER / HERO ===== -->
+        <header id="home" class="flex flex-col-reverse md:flex-row items-center gap-8 md:gap-12">
+            <!-- Kolom Teks -->
+            <div class="text-center md:text-left">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight">
+                    Revan Diwangkara
+                </h1>
+                <p class="mt-2 text-xl md:text-2xl font-medium text-gradient bg-gradient-to-r from-teal-400 to-sky-500">
+                    Mahasiswa Informatika & Pengembang Web
+                </p>
+                <p class="mt-4 max-w-xl text-slate-400">
+                    Seorang pembelajar yang antusias dengan minat mendalam pada desain dan pengembangan web, serta memiliki pengalaman dalam C# dan C++.
+                </p>
+                <!-- Tombol Kontak -->
+                <div class="mt-8 flex justify-center md:justify-start gap-4">
+                <a href="mailto:diwangkararevan@gmail.com" class="inline-flex items-center gap-2 bg-teal-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-teal-600 transition-colors">
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                    Hubungi Saya
+                    </a>
+                    <a href="https://github.com/revanataruk" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-slate-800 text-white font-semibold py-2 px-4 rounded-lg hover:bg-slate-700 transition-colors">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+            <!-- Kolom Foto -->
+            <div class="flex-shrink-0">
+                <img src="assets/img/photo.jpg" alt="Revan Diwangkara" class="w-32 h-32 md:w-40 md:h-40 object-cover object-center rounded-full border-4 border-slate-700 shadow-lg">
+            </div>
+        </header>
+
+        <main>
+            <!-- ===== BAGIAN TENTANG SAYA ===== -->
+            <section id="about" class="mt-24">
+                <h2 class="text-3xl font-bold text-white text-center">Tentang Saya</h2>
+                <div class="mt-8 mx-auto max-w-2xl text-center text-slate-400 space-y-4 leading-relaxed">
+                    <p>
+                        Saya adalah seorang mahasiswa program studi Informatika di Universitas Nusantara PGRI Kediri. Dunia teknologi, khususnya pengembangan web, telah menarik perhatian saya. Saya senang mempelajari hal-hal baru dan tidak takut untuk keluar dari zona nyaman untuk menguasai teknologi yang sedang tren.
+                    </p>
+                    <p>
+                        Dengan semangat untuk terus berkembang, saya menyeimbangkan waktu antara perkuliahan dan pekerjaan. Pengalaman ini telah mengasah kemampuan saya dalam manajemen waktu dan mengajarkan saya arti dari dedikasi dan kerja keras.
+                    </p>
+                </div>
+            </section>
+
+            <!-- ===== BAGIAN KEAHLIAN ===== -->
+            <section id="skills" class="mt-24">
+                <h2 class="text-3xl font-bold text-white text-center">Keahlian</h2>
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <!-- Keahlian Teknis -->
+                    <div>
+                        <h3 class="text-xl font-bold text-teal-400 text-center md:text-left">Teknis</h3>
+                        <div class="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-4">
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">HTML</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">CSS</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">Python</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">C#</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">C++</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">JavaScript</div>
+                        </div>
+                    </div>
+                    <!-- Keahlian Non-Teknis -->
+                    <div>
+                        <h3 class="text-xl font-bold text-sky-400 text-center md:text-left">Non-Teknis</h3>
+                        <div class="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-4">
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">Komunikasi</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">Public Speaking</div>
+                            <div class="bg-slate-800 rounded-lg p-4 text-center hover:bg-slate-700 transition-colors">Manajemen Proyek</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ===== BAGIAN PROYEK ===== -->
+            <section id="projects" class="mt-24">
+                <h2 class="text-3xl font-bold text-white text-center">Mini Proyek</h2>
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Proyek 1: Web Galeri -->
+                    <div class="bg-slate-800 rounded-lg overflow-hidden group">
+                        <img src="assets/img/nr.png" alt="Proyek Web Galeri" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Galeri Foto Serverless</h3>
+                            <p class="mt-2 text-slate-400">
+                                Sebuah galeri web dinamis yang memungkinkan unggah foto langsung ke Google Drive dan menampilkannya secara elegan. Proyek ini membuktikan kemampuan untuk mengintegrasikan API (Google Apps Script) dan membangun solusi kreatif tanpa backend tradisional.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-teal-900 text-teal-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">HTML</span>
+                                <span class="bg-teal-900 text-teal-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">CSS</span>
+                                <span class="bg-teal-900 text-teal-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                                <span class="bg-teal-900 text-teal-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">Google Script</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Proyek 2: Aplikasi Kesehatan -->
+                    <div class="bg-slate-800 rounded-lg overflow-hidden group">
+                        <img src="assets/img/bmi.png" alt="Proyek Aplikasi Kesehatan" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold text-white">Kalkulator Kesehatan Desktop</h3>
+                            <p class="mt-2 text-slate-400">
+                                Aplikasi desktop Windows Forms untuk melacak indikator kesehatan seperti BMI, BMR, dan pelacakan kalori. Menunjukkan keahlian dalam pengembangan aplikasi C# .NET dan pembuatan antarmuka pengguna yang fungsional.
+                            </p>
+                            <div class="mt-4 flex flex-wrap gap-2">
+                                <span class="bg-sky-900 text-sky-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">C#</span>
+                                <span class="bg-sky-900 text-sky-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">.NET Framework</span>
+                                <span class="bg-sky-900 text-sky-300 text-xs font-semibold px-2.5 py-0.5 rounded-full">WinForms</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- ===== BAGIAN PENDIDIKAN & PENGALAMAN (REVISI) ===== -->
+            <section id="journey" class="mt-24">
+                <h2 class="text-3xl font-bold text-white text-center">Pendidikan & Pengalaman</h2>
+                <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-12">
+            
+                    <!-- Kolom Pendidikan & Organisasi -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-teal-400 mb-8 flex items-center gap-3">
+                            <i data-lucide="graduation-cap" class="w-8 h-8"></i>
+                            Pendidikan & Organisasi
+                        </h3>
+                        <div class="relative border-l-2 border-slate-700 pl-10 space-y-10">
+                            <!-- Item: Kuliah -->
+                            <div class="relative">
+                                <div class="absolute -left-[45px] top-1 h-4 w-4 rounded-full bg-teal-500 ring-4 ring-slate-900"></div>
+                                <p class="text-sky-400 font-medium">Saat Ini</p>
+                                <h4 class="text-lg font-bold text-white">S1 Informatika</h4>
+                                <p class="text-slate-300">Universitas Nusantara PGRI Kediri</p>
+                                <p class="mt-1 text-slate-400 text-sm">Sedang menempuh studi dan mendalami ilmu komputer, pengembangan web, dan teknologi terkait.</p>
+                            </div>
+                            <!-- Item: Hima -->
+                            <div class="relative">
+                                <div class="absolute -left-[45px] top-1 h-4 w-4 rounded-full bg-slate-600"></div>
+                                <h4 class="text-lg font-bold text-white">Demisioner Himpunan Mahasiswa</h4>
+                                <p class="text-slate-300">UNP Kediri</p>
+                                <p class="mt-1 text-slate-400 text-sm">Menyelesaikan masa bakti di organisasi, mengasah kemampuan kepemimpinan dan kerja tim.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Kolom Pengalaman Kerja -->
+                    <div>
+                        <h3 class="text-2xl font-bold text-sky-400 mb-8 flex items-center gap-3">
+                            <i data-lucide="briefcase" class="w-8 h-8"></i>
+                            Pengalaman Kerja
+                        </h3>
+                        <div class="relative border-l-2 border-slate-700 pl-10 space-y-10">
+                            <!-- Item: Garuda Food -->
+                            <div class="relative">
+                                <div class="absolute -left-[45px] top-1 h-4 w-4 rounded-full bg-sky-500 ring-4 ring-slate-900"></div>
+                                <p class="text-teal-400 font-medium">Saat Ini</p>
+                                <h4 class="text-lg font-bold text-white">Finishing Operator & Quality Assist</h4>
+                                <p class="text-slate-300">Garuda Food</p>
+                                <p class="mt-1 text-slate-400 text-sm">Bertanggung jawab pada tahap akhir produksi sambil menyeimbangkan komitmen perkuliahan.</p>
+                            </div>
+                            <!-- Item: Gaming House -->
+                            <div class="relative">
+                                <div class="absolute -left-[45px] top-1 h-4 w-4 rounded-full bg-slate-600"></div>
+                                <h4 class="text-lg font-bold text-white">Virtual Gold Farmer</h4>
+                                <p class="text-slate-300">Rp 0 Gaming House</p>
+                                <p class="mt-1 text-slate-400 text-sm">Pengalaman awal yang mengasah ketekunan dan pemahaman tentang ekonomi digital.</p>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </section>
+
+        </main>
+
+        <!-- ===== BAGIAN FOOTER ===== -->
+        <footer class="mt-24 pt-8 border-t border-slate-800 text-center text-slate-500">
+            <p>&copy; 2024 Revan Ataruk. Dibuat dengan semangat dan secangkir kopi.</p>
+        </footer>
+
+    </div>
+    
+    <!-- Inisialisasi Lucide Icons -->
+    <script>
+      lucide.createIcons();
+    </script>
+
+</body>
+</html>
